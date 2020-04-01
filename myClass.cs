@@ -17,5 +17,9 @@ namespace GitExercise
         {
             get { return _adress;}
         }
+        public override string ToString()
+        {
+            return $"Navnet er {name}, og bor på adressen {adress} ";
+        }
     }
 }
