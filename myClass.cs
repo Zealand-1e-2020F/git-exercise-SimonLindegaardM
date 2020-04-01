@@ -3,13 +3,19 @@ namespace GitExercise
     class myClass
     {
         private string _name;
-        public myClass(string name)
+        private string _adress;
+        public myClass(string name,string adress)
         {
             _name = name;
+            _adress = adress;           
         }
         public string name
         {
             get{ return _name; }
+        }
+        public string adress
+        {
+            get { return _adress;}
         }
     }
 }
